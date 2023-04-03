@@ -6,7 +6,7 @@
         <b>
             <p class="m-1">{{__('front.sureLinks')}}</p>
             @php
-                $mailto = '<a href="mailto:mahfuzurmahadi@gmail.com">'.__("front.Contact Us").'</a>';
+                $mailto = '<a href="mailto:bilgi@hsdmrsoft.com">'.__("front.Contact Us").'</a>';
                 $home = '<a href="'.url("/").'">'.__("front.Home").'</a>';
             @endphp
             <p class="m-1">{!!__('front.mailTo',['mailto' => $mailto, 'home' => $home])!!}</p>
